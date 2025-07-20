@@ -1,7 +1,11 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#282A4E",
-        "titleBar.activeBackground": "#383B6E",
-        "titleBar.activeForeground": "#FBFBFD"
-    }
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#282A4E",
+    "titleBar.activeBackground": "#383B6E",
+    "titleBar.activeForeground": "#FBFBFD"
+  },
+  "cSpell.words": [
+    "Avant",
+    "Velonni"
+  ]
 }

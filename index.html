@@ -1,12 +1,244 @@
 <!-- Home -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velonni - Luxury At It's Peak.</title>
+    <title>Velonni - Luxury at it's peak</title>
+
+    <!-- Google Fonts for Fashion Styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
-    
+
+    <!-- ================= NAVIGATION BAR ================= -->
+    <header class="navbar">
+        <div class="logo-container">
+            <!-- Desktop Logo -->
+            <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
+            <!-- Mobile Logo -->
+            <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
+        </div>
+
+        <!-- Hamburger Menu Toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
+            <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
+        </label>
+
+        <!-- Navigation Links -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="trustees.html">Trustees</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Velonni</h1>
+        <p>Where Elegance Meets Confidence.<br>
+            At Velonni, we don’t just follow trends, we set them.
+        </p>
+        <a href="collections.html" class="btn">Explore Collections</a>
+    </div>
+</section>
+
+    <!-- ================= ABOUT US SECTION ================= -->
+<section class="about-preview">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>Our Story</h2>
+            <p>
+                We are a modern fashion house born from passion, creativity, and a vision to redefine beauty through
+                timeless style.
+                <br><br>
+                From casual chic to bold statements, our collections are crafted for individuals who dare to stand out.
+                Whether you're dressing for the spotlight or elevating your everyday, Velonni brings you fashion that
+                speaks your truth.
+                <br><br>
+                Designed with purpose. Worn with pride.
+                <br>
+                Every stitch tells a story. Let yours begin with Velonni.
+                <br>
+                Explore our world of premium fabrics, elegant cuts, and flawless craftsmanship. Welcome to fashion
+                without limits.
+                <br><br>
+                Step into style. Step into Velonni.
+            </p>
+            <a href="about.html" class="btn">Discover More</a>
+        </div>
+
+        <!-- Boutique Image -->
+        <img src="assets/Images/VelonniShop.png" alt="About Velonni" class="about-image">
+    </div>
+</section>
+
+    <!-- ================= COLLECTIONS SECTION ================= -->
+    <section class="collections-preview">
+        <h2>Featured Collections</h2>
+        <div class="collection-grid">
+            <div class="collection-item">
+                <img src="assets/Images/SpringCollection.png" alt="Spring Collection">
+                <p>Spring Line 2025</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/Images/AvantGarde.png" alt="Avant Garde">
+                <p>Avant-Garde Couture</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/Images/EveningWear.png" alt="Evening Wear">
+                <p>Luxury Evening Wear</p>
+            </div>
+        </div>
+        <a href="collections.html" class="link-btn">View All Collections</a>
+    </section>
+
+    <!-- ================= PERSONAL STYLING SECTION ================= -->
+    <section class="appointment-teaser">
+        <div class="appointment-container">
+            <img src="assets/Images/PersonalStyling.png" alt="Personal Styling" class="appointment-image">
+            <div class="appointment-text">
+                <h2>Personal Styling</h2>
+                <p>Book a one-on-one consultation with our fashion experts to refine your wardrobe, explore bespoke
+                    pieces,
+                    and experience luxury fashion personalized for you.</p>
+                <a href="appointments.html" class="btn">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BLOG SECTION ================= -->
+    <section class="blog-preview">
+        <h2>From Our Blog</h2>
+        <p>Get the latest insights, fashion tips, and event highlights from the Velonni team.</p>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="assets/Images/TrendAnalysis.png" alt="Trend Analysis">
+                <h3>2025 Fashion Trends</h3>
+                <p>Explore the bold cuts, textures, and color palettes defining this year's runway.</p>
+                <a href="blog.html" class="link-btn">Read More</a>
+            </div>
+
+            <div class="blog-card">
+                <img src="assets/Images/StylingSecret.png" alt="Styling Secrets">
+                <h3>Styling Secrets</h3>
+                <p>Our experts share tips to refine your everyday look with couture simplicity.</p>
+                <a href="blog.html" class="link-btn">Read More</a>
+            </div>
+
+            <div class="blog-card">
+                <img src="assets/Images/BehindVeloni.png" alt="Behind the Scenes">
+                <h3>Behind Velonni</h3>
+                <p>Go behind the scenes of our latest collection and meet the creative team.</p>
+                <a href="blog.html" class="link-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EVENTS SECTION ================= -->
+    <section class="events-preview">
+        <h2>Upcoming Events</h2>
+        <p>Join us for exclusive fashion showcases, private fittings, and curated style experiences.</p>
+        <div class="collection-grid">
+            <div class="collection-item">
+                <img src="assets/Images/RunwayEvent.png" alt="Runway Event">
+                <p>Velonni Runway 2025</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/Images/TrunkShow.png" alt="Trunk Show">
+                <p>Private Trunk Show</p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/Images/Pop-upStore.png" alt="Pop-up Store">
+                <p>Pop-up Boutique Launch</p>
+            </div>
+        </div>
+        <a href="events.html" class="link-btn">See All Events</a>
+    </section>
+
+    <!-- ================= TRUSTEES SECTION ================= -->
+    <section class="trustees-preview">
+        <h2>Our Board of Trustees</h2>
+        <p>Guiding Velonni with expertise in fashion, art, and global culture.</p>
+        <div class="collection-grid">
+            <div class="collection-item">
+                <img src="assets/Images/trustee1.png" alt="Trustee 1">
+                <p class="trustees-name">Amelia Hart <br> <span class="trustees-role">Fashion Entrepreneur</span> </p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/Images/trustee2.png" alt="Trustee 2">
+                <p class="trustees-name">Lorenzo DeVinci <br> <span class="trustees-role">Creative Director</span> </p>
+            </div>
+            <div class="collection-item">
+                <img src="assets/Images/trustee3.png" alt="Trustee 3">
+                <p class="trustees-name">Camille DuPont <br> <span class="trustees-role">Art Curator</span> </p>
+            </div>
+        </div>
+        <a href="trustees.html" class="link-btn">Meet All Trustees</a>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact-section">
+        <div class="contact-container">
+
+            <!-- Contact Info Text -->
+            <div class="contact-text">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Whether it's for event bookings, personal styling inquiries, or
+                    collaborations—reach out and let's connect.</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="footer-logo">
+                <div class="footer-promise">
+                    <p>&copy; 2025 Velonni. All Rights Reserved.</p>
+                    <p >Sustainably crafted. Authentically African. Unapologetically bold.<br>Every piece tells your
+                        story, with class.</p>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <ul class="footer-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="trustees.html">Trustees</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
