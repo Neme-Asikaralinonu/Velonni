@@ -1,0 +1,104 @@
+/* Appointment Hero */
+.appointment-hero {
+    min-height: 70vh;
+    background: linear-gradient(135deg, rgba(92, 45, 33, 0.74), rgba(57, 5, 124, 0.767)), url('../Images/AppointmentHero.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.appointment-hero .hero-content {
+    max-width: 700px;
+    color: #fff;
+}
+
+.appointment-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.appointment-hero p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+/* Appointment Options */
+.appointment-options {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.appointment-options h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.appointment-options p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+/* Grid */
+.appointment-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.appointment-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.appointment-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.appointment-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    margin: 15px;
+}
+
+.appointment-card p {
+    font-size: 0.95em;
+    line-height: 1.5em;
+    margin: 0 15px 20px;
+}
+
+.appointment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Booking CTA */
+.booking-cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #6a00f4, #ff7e5f);
+    color: #fff;
+}
+
+.booking-cta h2 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+.booking-cta p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}

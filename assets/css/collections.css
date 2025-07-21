@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7e5f, #6a00f4);
+}
+
+/* HERO */
+.collections-hero {
+    min-height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+        url('../Images/RunwayEvent.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* COLLECTIONS GALLERY */
+.collections-gallery {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.collection-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.collection-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.collection-image {
+    flex: 1 1 500px;
+    height: 550px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.collection-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+.collection-text {
+    flex: 1 1 400px;
+    text-align: left;
+}
+
+.collection-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.collection-text p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+/* CTA */
+.cta-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .collection-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .collection-text {
+        text-align: center;
+    }
+}

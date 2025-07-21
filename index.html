@@ -17,35 +17,46 @@
 <body>
 
     <!-- ================= NAVIGATION BAR ================= -->
-    <header class="navbar">
-        <div class="logo-container">
-            <!-- Desktop Logo -->
+<header class="navbar">
+    <div class="logo-container">
+        <a href="index.html">
             <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
-            <!-- Mobile Logo -->
             <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
-        </div>
+        </a>
+    </div>
 
-        <!-- Hamburger Menu Toggle -->
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">
-            <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
-            <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
-        </label>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+        <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
+        <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
+    </label>
 
-        <!-- Navigation Links -->
-        <nav>
-            <ul class="nav-links">
-                <li><a href="about.html">About</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="appointments.html">Appointments</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="trustees.html">Trustees</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="#">Explore ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Community ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="blog.html" >Blog</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="trustees.html">Trustees</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 
     <!-- ================= HERO SECTION ================= -->
 <section class="hero">
@@ -260,6 +271,7 @@
 
             <div class="footer-right">
                 <ul class="footer-links">
+                    <li><a href="about.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="collections.html">Collections</a></li>
                     <li><a href="appointments.html">Appointments</a></li>

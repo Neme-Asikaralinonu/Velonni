@@ -1,12 +1,128 @@
-<!-- Upcoming Events -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Events - Velonni</title>
+    <title>Velonni Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/events.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
-    
+
+        <!-- ================= NAVIGATION BAR ================= -->
+        <header class="navbar">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
+                    <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
+                </a>
+            </div>
+        
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
+                <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
+            </label>
+        
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#">Explore ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="collections.html">Collections</a></li>
+                            <li><a href="appointments.html">Appointments</a></li>
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Community ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="events.html"  class="active">Events</a></li>
+                            <li><a href="teams.html">Teams</a></li>
+                            <li><a href="trustees.html">Trustees</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="events-hero">
+        <div class="hero-content">
+            <h1>Exclusive Events</h1>
+            <p>Step into a world where fashion meets unforgettable experiences. Join Velonni at our upcoming events.</p>
+        </div>
+    </section>
+
+    <!-- ================= EVENTS LIST ================= -->
+    <section class="events-list">
+
+        <div class="event-card">
+            <img src="assets/Images/RunwayEvent.png" alt="Velonni Runway Show">
+            <div class="event-info">
+                <h2>Velonni Runway 2025</h2>
+                <p>A night of couture, creativity, and cultural celebration. Witness our latest collection live on the
+                    runway.</p>
+                <span class="event-date">March 15, 2025 | Lagos Fashion District</span>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <img src="assets/Images/TrunkShow.png" alt="Private Trunk Show">
+            <div class="event-info">
+                <h2>Private Trunk Show</h2>
+                <p>Get a first look at our exclusive designs, available only for select clientele. Reserve your private
+                    viewing today.</p>
+                <span class="event-date">April 5, 2025 | Velonni Studio</span>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <img src="assets/Images/Pop-upStore.png" alt="Pop-up Boutique Launch">
+            <div class="event-info">
+                <h2>Pop-up Boutique Launch</h2>
+                <p>Shop Velonni’s latest collection at our luxury pop-up experience. Bespoke fittings available on site.
+                </p>
+                <span class="event-date">May 20, 2025 | Eko Atlantic, Lagos</span>
+            </div>
+        </div>
+
+    </section>
+
+        <!-- ================= FOOTER ================= -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="footer-logo">
+                    <div class="footer-promise">
+                        <p>&copy; 2025 Velonni. All Rights Reserved.</p>
+                        <p>Sustainably crafted. Authentically African. Unapologetically bold.<br>Every piece tells your
+                            story, with class.</p>
+                    </div>
+                </div>
+        
+                <div class="footer-right">
+                    <ul class="footer-links">
+                        <li><a href="about.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="appointments.html">Appointments</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="trustees.html">Trustees</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
 </body>
+
 </html>

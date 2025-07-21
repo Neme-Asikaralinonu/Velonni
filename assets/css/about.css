@@ -1,0 +1,172 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #1a001f, #4a004f);
+    line-height: 1.8;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Hero */
+.about-hero {
+    background: linear-gradient(135deg, rgba(92, 45, 33, 0.74), rgba(57, 5, 124, 0.767)), url('../Images/VelonniShop.png') center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Philosophy Section */
+.philosophy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.philosophy-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.philosophy-image {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Story */
+.story-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Craft */
+.craft-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap-reverse;
+    margin-top: 60px;
+}
+
+.craft-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.craft-image {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Why Velonni */
+.why-velonni-section ul {
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 0;
+}
+
+.why-velonni-section li {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Team */
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.team-member {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.team-section a {
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .philosophy-container,
+    .craft-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .philosophy-text,
+    .craft-text {
+        text-align: center;
+    }
+}

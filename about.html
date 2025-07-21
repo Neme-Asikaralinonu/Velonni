@@ -1,10 +1,174 @@
-<!-- About Velonni -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About - Velonni</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Velonni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <!-- ================= NAVIGATION BAR ================= -->
+    <header class="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
+          <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
+        </a>
+      </div>
+    
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
+        <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
+      </label>
+    
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li class="dropdown">
+            <a href="#">Explore ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="collections.html">Collections</a></li>
+              <li><a href="appointments.html">Appointments</a></li>
+              <li><a href="services.html">Services</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Community ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="teams.html">Teams</a></li>
+              <li><a href="trustees.html">Trustees</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+  <!-- HERO SECTION -->
+  <section class="about-hero">
+    <div class="hero-content">
+      <h1>About Velonni</h1>
+      <p>Crafting Fashion Beyond Seasons.<br>Celebrating Authentic Confidence.</p>
+    </div>
+  </section>
+
+  <!-- OUR PHILOSOPHY -->
+  <section class="philosophy-section">
+    <div class="philosophy-container">
+      <div class="philosophy-text">
+        <h2>Our Philosophy</h2>
+        <p>Velonni is not just a fashion house; it’s a movement. We believe fashion is a language—a personal statement
+          that should empower, uplift, and inspire.<br><br>
+          Every piece we create is rooted in the idea of timeless beauty, bold confidence, and cultural authenticity. We
+          merge tradition with innovation, crafting garments that make you feel like the best version of yourself.
+        </p>
+      </div>
+      <img src="assets/Images/VelonniPhilosophy.png" alt="Velonni Philosophy" class="philosophy-image">
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="story-section">
+    <h2>Our Story</h2>
+    <p>Founded with a vision to break the mold of mainstream fashion, Velonni began as a boutique atelier in Lagos,
+      Nigeria. Our founders—visionaries in both design and craftsmanship—sought to build a brand that blends high
+      fashion with cultural pride.<br><br>
+      From handcrafted gowns to avant-garde menswear, we’ve expanded into a global name without losing our roots. Each
+      collection honors African heritage, modern innovation, and luxurious detailing.</p>
+  </section>
+
+  <!-- THE CRAFT -->
+  <section class="craft-section">
+    <div class="craft-container">
+      <img src="assets/Images/VelonniCraft.png" alt="Velonni Craft" class="craft-image">
+      <div class="craft-text">
+        <h2>The Craft</h2>
+        <p>At Velonni, craftsmanship is sacred. We use premium fabrics sourced responsibly, and every stitch is placed
+          with precision.<br><br>
+          Our artisans spend hours hand-finishing garments to ensure each piece meets the highest standards of luxury.
+          From initial sketches to final fittings, we blend tradition with technology to create wearable art.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY VELONNI -->
+  <section class="why-velonni-section">
+    <h2>Why Choose Velonni?</h2>
+    <ul>
+      <li><strong>Authentic Luxury:</strong> We prioritize quality over mass production.</li>
+      <li><strong>Bold Individuality:</strong> Our collections are made for those who dare to stand out.</li>
+      <li><strong>Ethical Fashion:</strong> Sustainability is part of our DNA.</li>
+      <li><strong>Tailored Experiences:</strong> From personal styling to private fittings, every service is bespoke.
+      </li>
+    </ul>
+  </section>
+
+  <!-- TEAM SHOWCASE -->
+  <section class="team-section">
+    <h2>Meet Our Creative Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="assets/Images/Avatar.png" alt="Creative Director">
+        <h3>Amara Okeke</h3>
+        <p>Creative Director</p>
+      </div>
+      <div class="team-member">
+        <img src="assets/Images/Avatar.png" alt="Head of Tailoring">
+        <h3>Kofi Mensah</h3>
+        <p>Master Tailor</p>
+      </div>
+      <div class="team-member">
+        <img src="assets/Images/Avatar.png" alt="Fashion Consultant">
+        <h3>Sofia Adu</h3>
+        <p>Lead Stylist</p>
+      </div>
+    </div>
+    <a href="team.html" class="cta-btn">View Full Team</a>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="cta-section">
+    <h2>Join the Velonni Movement</h2>
+    <p>Experience fashion without limits. Whether you're looking for bespoke garments, exclusive events, or simply
+      inspiration—Velonni is your destination for elevated style.</p>
+    <a href="collections.html" class="cta-btn">Explore Our Collections</a>
+  </section>
+
+      <!-- ================= FOOTER ================= -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="footer-logo">
+            <div class="footer-promise">
+              <p>&copy; 2025 Velonni. All Rights Reserved.</p>
+              <p>Sustainably crafted. Authentically African. Unapologetically bold.<br>Every piece tells your
+                story, with class.</p>
+            </div>
+          </div>
+      
+          <div class="footer-right">
+            <ul class="footer-links">
+              <li><a href="about.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="collections.html">Collections</a></li>
+              <li><a href="appointments.html">Appointments</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="trustees.html">Trustees</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+</body>
+
 </html>
