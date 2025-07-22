@@ -1,23 +1,12 @@
-/* Reset & Base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('./style.css');
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
     color: #fff;
     background: linear-gradient(135deg, #1a001f, #4a004f);
     line-height: 1.8;
 }
 
 /* Typography */
-h1,
-h2,
-h3 {
-    font-family: 'Playfair Display', serif;
-}
 
 h1 {
     font-size: 3em;
