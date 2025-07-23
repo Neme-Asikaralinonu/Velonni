@@ -1,168 +1,161 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("./style.css");
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #fff;
-    background: linear-gradient(135deg, #ff7e5f, #6a00f4);
+  color: #fff;
+  background: linear-gradient(135deg, #ff7e5f, #6a00f4);
 }
 
 /* Hero */
 .services-hero {
-    min-height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-        url('../Images/CustomTailoring.png') center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 60px 20px;
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../Images/CustomTailoring.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
 }
 
 .hero-content h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    margin-bottom: 15px;
+  font-size: 3em;
+  margin-bottom: 15px;
 }
 
 .hero-content p {
-    font-size: 1.2em;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.5em;
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5em;
 }
 
 /* SERVICE SECTIONS */
 .service-section {
-    padding: 60px 20px;
-    background: rgba(255, 255, 255, 0.05);
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .service-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .service-container.reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .service-container img {
-    width: 500px;
-    max-width: 100%;
-    border-radius: 15px;
-    object-fit: cover;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .service-text {
-    max-width: 500px;
-    text-align: left;
+  max-width: 500px;
+  text-align: left;
 }
 
 .service-text h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
-    margin-bottom: 15px;
+  font-size: 2em;
+  margin-bottom: 15px;
 }
 
 .service-text p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
-    line-height: 1.6em;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  line-height: 1.6em;
 }
 
 .service-text ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .service-text ul li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
 }
 
 .service-text ul li::before {
-    content: '✔';
-    position: absolute;
-    left: 0;
-    color: #ff7e5f;
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #ff7e5f;
 }
 
 /* PRIVATE CONSULTATION */
 .private {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(106, 0, 244, 0.1));
-    text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(106, 0, 244, 0.1)
+  );
+  text-align: center;
 }
 
 .private-content {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 40px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .private-content h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5em;
-    margin-bottom: 15px;
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
 .private-content p {
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    line-height: 1.6em;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6em;
 }
 
 .private-content ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .private-content ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* CTA */
 .cta-section {
-    background: #0d011b;
-    padding: 60px 20px;
-    text-align: center;
+  background: #0d011b;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .cta-section h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2em;
-    margin-bottom: 15px;
+  font-size: 2.2em;
+  margin-bottom: 15px;
 }
 
 .cta-section p {
-    font-size: 1.1em;
-    margin-bottom: 25px;
+  font-size: 1.1em;
+  margin-bottom: 25px;
 }
-
 
 /* Responsive */
 @media (max-width: 768px) {
-    .service-card {
-        width: 90%;
-        max-width: 400px;
-    }
+  .service-card {
+    width: 90%;
+    max-width: 400px;
+  }
 
-    .service-container {
-        flex-direction: column;
-        text-align: center;
-    }
+  .service-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .service-text {
-        text-align: center;
-    }
+  .service-text {
+    text-align: center;
+  }
 }

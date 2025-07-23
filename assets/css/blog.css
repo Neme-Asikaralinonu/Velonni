@@ -1,3 +1,5 @@
+@import url('./style.css');
+
 /* ========== BLOG PAGE ========== */
 .blog-content {
     padding: 80px 20px;
@@ -7,7 +9,6 @@
 }
 
 .blog-title {
-    font-family: 'Playfair Display', serif;
     font-size: 3em;
     margin-bottom: 10px;
     text-align: center;
@@ -39,7 +40,6 @@
 }
 
 .blog-post h2 {
-    font-family: 'Playfair Display', serif;
     font-size: 2em;
     margin-bottom: 15px;
     color: #fff;

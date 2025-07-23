@@ -1,148 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velonni Services</title>
+    <link rel="stylesheet" href="assets/css/services.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VelonniMobileLogo.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Velonni Services</title>
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
-   <link rel="stylesheet" href="assets/css/services.css" />
-   <link rel="stylesheet" href="assets/css/index.css" />
-</head>
-
-<body>
-         <!-- ================= NAVIGATION BAR ================= -->
-         <header class="navbar">
-            <div class="logo-container">
-               <a href="index.html">
-                  <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
-                  <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
-               </a>
-            </div>
-         
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
-               <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
-               <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
-            </label>
-         
-            <nav>
-               <ul class="nav-links">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li class="dropdown">
-                     <a href="#">Explore ▾</a>
-                     <ul class="dropdown-menu">
-                        <li><a href="collections.html">Collections</a></li>
-                        <li><a href="appointments.html">Appointments</a></li>
-                        <li><a href="services.html"  class="active">Services</a></li>
-                     </ul>
-                  </li>
-                  <li class="dropdown">
-                     <a href="#">Community ▾</a>
-                     <ul class="dropdown-menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="teams.html">Teams</a></li>
-                        <li><a href="trustees.html">Trustees</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="contact.html">Contact</a></li>
-               </ul>
-            </nav>
-         </header>
-
-   <!-- SERVICES HERO -->
-   <section class="services-hero">
-      <div class="hero-content">
-         <h1>Our Services</h1>
-         <p>Luxury, precision, and personal expression—tailored just for you.</p>
+  <body>
+    <!-- ================= NAVIGATION BAR ================= -->
+    <header class="navbar">
+      <div class="logo-container">
+        <img
+          src="assets/Images/VelonniLogo.png"
+          alt="Velonni Logo"
+          class="logo-desktop"
+        />
+        <img
+          src="assets/Images/VelonniMobileLogo.png"
+          alt="Velonni Mobile Logo"
+          class="logo-mobile"
+        />
       </div>
-   </section>
 
-<!-- ========== LUXURY TAILORING ========== -->
-<section class="service-section">
-   <div class="service-container reverse">
-      <img src="assets/Images/CustomTailoring.png" alt="Custom Tailoring" />
-      <div class="service-text">
-         <h2>Custom Tailoring</h2>
-         <p>At Velonni, tailoring is an art. Each garment is measured, cut, and sewn by master artisans to create an
-            impeccable fit.</p>
-         <ul>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <img
+          src="assets/Images/OpenMenu.png"
+          alt="Menu Icon"
+          class="menu-open-icon"
+        />
+        <img
+          src="assets/Images/CloseMenu.png"
+          alt="Close Icon"
+          class="menu-close-icon"
+        />
+      </label>
+
+      <nav>
+        <ul class="nav-links">
+          <li>Events</li>
+          <li class="dropdown">
+            Explore ▾
+            <ul class="dropdown-menu">
+              <li>Collections</li>
+              <li>Appointments</li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            Community ▾
+            <ul class="dropdown-menu">
+              <li>About</li>
+              <li>Blog</li>
+              <li>Events</li>
+              <li>Teams</li>
+              <li>Trustees</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SERVICES HERO -->
+    <section class="services-hero">
+      <div class="hero-content">
+        <h1>Our Services</h1>
+        <p>Luxury, precision, and personal expression—tailored just for you.</p>
+      </div>
+    </section>
+
+    <!-- ========== LUXURY TAILORING ========== -->
+    <section class="service-section">
+      <div class="service-container reverse">
+        <img src="assets/Images/CustomTailoring.png" alt="Custom Tailoring" />
+        <div class="service-text">
+          <h2>Custom Tailoring</h2>
+          <p>
+            At Velonni, tailoring is an art. Each garment is measured, cut, and
+            sewn by master artisans to create an impeccable fit.
+          </p>
+          <ul>
             <li>Precision body measurements</li>
             <li>Hand-selected fabrics</li>
             <li>Personalized design consultation</li>
             <li>Hand-finished stitching & detail</li>
-         </ul>
+          </ul>
+        </div>
       </div>
-   </div>
-</section>
+    </section>
 
-<!-- ========== WARDROBE STYLING ========== -->
-<section class="service-section">
-   <div class="service-container">
-      <img src="assets/Images/WardrobeStyling.png" alt="Wardrobe Styling" />
-      <div class="service-text">
-         <h2>Wardrobe Styling</h2>
-         <p>Our stylists help you curate a wardrobe that reflects your boldness and elegance, for both everyday wear and
-            grand events.</p>
-         <ul>
+    <!-- ========== WARDROBE STYLING ========== -->
+    <section class="service-section">
+      <div class="service-container">
+        <img src="assets/Images/WardrobeStyling.png" alt="Wardrobe Styling" />
+        <div class="service-text">
+          <h2>Wardrobe Styling</h2>
+          <p>
+            Our stylists help you curate a wardrobe that reflects your boldness
+            and elegance, for both everyday wear and grand events.
+          </p>
+          <ul>
             <li>One-on-one styling sessions</li>
             <li>Seasonal wardrobe planning</li>
             <li>Closet audits & refresh</li>
             <li>Event-specific styling</li>
-         </ul>
+          </ul>
+        </div>
       </div>
-   </div>
-</section>
+    </section>
 
-<!-- ========== PRIVATE CONSULTATION ========== -->
-<section class="service-section private">
-   <div class="private-content">
-      <h2>Private Consultation & Fittings</h2>
-      <p>Enjoy exclusive private consultations in a serene setting where your style journey unfolds in complete
-         confidence.</p>
-      <ul>
-         <li>Private fitting suites</li>
-         <li>Confidential style mapping</li>
-         <li>Personalized fashion roadmap</li>
-      </ul>
-   </div>
-</section>
+    <!-- ========== PRIVATE CONSULTATION ========== -->
+    <section class="service-section private">
+      <div class="private-content">
+        <h2>Private Consultation & Fittings</h2>
+        <p>
+          Enjoy exclusive private consultations in a serene setting where your
+          style journey unfolds in complete confidence.
+        </p>
+        <ul>
+          <li>Private fitting suites</li>
+          <li>Confidential style mapping</li>
+          <li>Personalized fashion roadmap</li>
+        </ul>
+      </div>
+    </section>
 
-   <!-- CALL TO ACTION -->
-   <section class="services-cta">
+    <!-- CALL TO ACTION -->
+    <section
+      class="services-cta"
+      style="display: flex; flex-direction: column; align-items: center"
+    >
       <h2>Ready to Experience Velonni?</h2>
-      <p>Book your consultation or visit us in-store for a tailored fashion journey.</p>
-      <a href="appointments.html" class="cta-btn">Book an Appointment</a>
-   </section>
+      <p>
+        Book your consultation or visit us in-store for a tailored fashion
+        journey.
+      </p>
+      <button class="cta-btn">Book an Appointment</button>
+    </section>
 
-      <!-- ================= FOOTER ================= -->
-      <footer class="footer">
-         <div class="footer-container">
-            <div class="footer-left">
-               <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="footer-logo">
-               <div class="footer-promise">
-                  <p>&copy; 2025 Velonni. All Rights Reserved.</p>
-                  <p>Sustainably crafted. Authentically African. Unapologetically bold.<br>Every piece tells your
-                     story, with class.</p>
-               </div>
-            </div>
-      
-            <div class="footer-right">
-               <ul class="footer-links">
-                  <li><a href="about.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="collections.html">Collections</a></li>
-                  <li><a href="appointments.html">Appointments</a></li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="trustees.html">Trustees</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-               </ul>
-            </div>
-         </div>
-      </footer>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="assets/Images/VelonniLogo.png"
+            alt="Velonni Logo"
+            class="footer-logo"
+          />
+          <div class="footer-promise">
+            <p>&copy; 2025 Velonni. All Rights Reserved.</p>
+            <p>
+              Sustainably crafted. Authentically African. Unapologetically
+              bold.<br />Every piece tells your story, with class.
+            </p>
+          </div>
+        </div>
 
-</body>
-
+        <div class="footer-right">
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="appointments.html">Appointments</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="trustees.html">Trustees</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/style.js"></script>
+  </body>
 </html>
