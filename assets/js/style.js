@@ -1,6 +1,7 @@
 // Marquee
-const marquee = `<div class="marquee"><p>Upcoming Event - Velonni Runway 2025: Join us for exclusive fashion showcases, private fittings, and curated style experiences. <button>View Event</button></p></div>`
-document.querySelector(".navbar").innerHTML = marquee + document.querySelector(".navbar").innerHTML
+const marquee = `<div class="marquee"><p>Upcoming Event - Velonni Runway 2025: Join us for exclusive fashion showcases, private fittings, and curated style experiences. <button>View Event</button></p></div>`;
+document.querySelector(".navbar").innerHTML =
+  marquee + document.querySelector(".navbar").innerHTML;
 
 const buttons = document.querySelectorAll("button");
 const imgs = document.querySelectorAll("img");
@@ -27,13 +28,15 @@ buttons.forEach((button) => {
     } else if (text == "Explore Collections" || text == "See All Collections") {
       window, (location.href = "./collections.html");
     } else if (text == "Book Appointment") {
-      window, (location.href = "./appointment.html");
+      window, (location.href = "./appointments.html");
     } else if (text == "Explore All Services") {
       window, (location.href = "./services.html");
     } else if (text == "Read More") {
       window, (location.href = "./blog.html");
     } else if (text == "See All Events" || text == "View Event") {
       window, (location.href = "./events.html");
+    } else if (text == "View Full Team") {
+      window, (location.href = "./teams.html");
     } else if (text == "Meet All Trustees") {
       window, (location.href = "./trustees.html");
     } else if (text == "Contact Us") {
@@ -51,13 +54,15 @@ lis.forEach((li) => {
     } else if (text == "Collections") {
       window, (location.href = "./collections.html");
     } else if (text == "Appointments") {
-      window, (location.href = "./appointment.html");
+      window, (location.href = "./appointments.html");
     } else if (text == "Services") {
       window, (location.href = "./services.html");
     } else if (text == "Blog") {
       window, (location.href = "./blog.html");
     } else if (text == "Events") {
       window, (location.href = "./events.html");
+    } else if (text == "Teams") {
+      window, (location.href = "./teams.html");
     } else if (text == "Trustees") {
       window, (location.href = "./trustees.html");
     } else if (text == "Contact") {

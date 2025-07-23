@@ -1,3 +1,5 @@
+@import url('./style.css');
+
 /* Appointment Hero */
 .appointment-hero {
     min-height: 70vh;
@@ -15,7 +17,6 @@
 }
 
 .appointment-hero h1 {
-    font-family: 'Playfair Display', serif;
     font-size: 3em;
     margin-bottom: 15px;
 }
@@ -34,7 +35,6 @@
 .appointment-options h2 {
     font-size: 2.5em;
     margin-bottom: 15px;
-    font-family: 'Playfair Display', serif;
 }
 
 .appointment-options p {
@@ -68,7 +68,6 @@
 }
 
 .appointment-card h3 {
-    font-family: 'Playfair Display', serif;
     font-size: 1.4em;
     margin: 15px;
 }
@@ -94,7 +93,6 @@
 
 .booking-cta h2 {
     font-size: 2.5em;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 15px;
 }
 

@@ -1,131 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Velonni | Book an Appointment</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/appointments.css">
-</head>
+    <link rel="stylesheet" href="assets/css/appointments.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VelonniMobileLogo.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- ================= NAVIGATION BAR ================= -->
     <header class="navbar">
-        <div class="logo-container">
-            <a href="index.html">
-                <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
-                <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
-            </a>
-        </div>
+      <div class="logo-container">
+        <img
+          src="assets/Images/VelonniLogo.png"
+          alt="Velonni Logo"
+          class="logo-desktop"
+        />
+        <img
+          src="assets/Images/VelonniMobileLogo.png"
+          alt="Velonni Mobile Logo"
+          class="logo-mobile"
+        />
+      </div>
 
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">
-            <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
-            <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
-        </label>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <img
+          src="assets/Images/OpenMenu.png"
+          alt="Menu Icon"
+          class="menu-open-icon"
+        />
+        <img
+          src="assets/Images/CloseMenu.png"
+          alt="Close Icon"
+          class="menu-close-icon"
+        />
+      </label>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                    <a href="#">Explore ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="collections.html">Collections</a></li>
-                        <li><a href="appointments.html" class="active">Appointments</a></li>
-                        <li><a href="services.html">Services</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Community ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="teams.html">Teams</a></li>
-                        <li><a href="trustees.html">Trustees</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+      <nav>
+        <ul class="nav-links">
+          <li>Events</li>
+          <li class="dropdown">
+            Explore ▾
+            <ul class="dropdown-menu">
+              <li>Collections</li>
+              <li>Services</li>
             </ul>
-        </nav>
+          </li>
+          <li class="dropdown">
+            Community ▾
+            <ul class="dropdown-menu">
+              <li>About</li>
+              <li>Blog</li>
+              <li>Teams</li>
+              <li>Trustees</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- HERO -->
     <section class="appointment-hero">
-        <div class="hero-content">
-            <h1>Book Your Private Session</h1>
-            <p>Experience Velonni's personal styling, custom tailoring, and wardrobe consulting — crafted just for you.
-            </p>
-        </div>
+      <div class="hero-content">
+        <h1>Book Your Private Session</h1>
+        <p>
+          Experience Velonni's personal styling, custom tailoring, and wardrobe
+          consulting — crafted just for you.
+        </p>
+      </div>
     </section>
 
     <!-- APPOINTMENT OPTIONS -->
     <section class="appointment-options">
-        <h2>Your Experience, Your Choice</h2>
-        <p>Choose the appointment type that fits your style journey. Each session is personalized and exclusive.</p>
+      <h2>Your Experience, Your Choice</h2>
+      <p>
+        Choose the appointment type that fits your style journey. Each session
+        is personalized and exclusive.
+      </p>
 
-        <div class="appointment-grid">
-
-            <div class="appointment-card">
-                <img src="assets/Images/CustomTailoring.png" alt="Custom Tailoring">
-                <h3>Custom Tailoring</h3>
-                <p>Design your perfect piece. From initial sketch to final fitting, our artisans guide you every step of
-                    the way.</p>
-            </div>
-
-            <div class="appointment-card">
-                <img src="assets/Images/WardrobeStyling.png" alt="Wardrobe Styling">
-                <h3>Wardrobe Styling</h3>
-                <p>Let our stylists refresh your look with curated pieces and ensemble recommendations tailored to your
-                    lifestyle.</p>
-            </div>
-
-            <div class="appointment-card">
-                <img src="assets/Images/PrivateConsultation.png" alt="Private Consultation">
-                <h3>Private Consultation</h3>
-                <p>Book a one-on-one session to discuss your style goals, upcoming events, or personal branding needs.
-                </p>
-            </div>
-
+      <div class="appointment-grid">
+        <div class="appointment-card">
+          <img src="assets/Images/CustomTailoring.png" alt="Custom Tailoring" />
+          <h3>Custom Tailoring</h3>
+          <p>
+            Design your perfect piece. From initial sketch to final fitting, our
+            artisans guide you every step of the way.
+          </p>
         </div>
+
+        <div class="appointment-card">
+          <img src="assets/Images/WardrobeStyling.png" alt="Wardrobe Styling" />
+          <h3>Wardrobe Styling</h3>
+          <p>
+            Let our stylists refresh your look with curated pieces and ensemble
+            recommendations tailored to your lifestyle.
+          </p>
+        </div>
+
+        <div class="appointment-card">
+          <img
+            src="assets/Images/PrivateConsultation.png"
+            alt="Private Consultation"
+          />
+          <h3>Private Consultation</h3>
+          <p>
+            Book a one-on-one session to discuss your style goals, upcoming
+            events, or personal branding needs.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- BOOKING CTA -->
-    <section class="booking-cta">
-        <h2>Ready to Begin?</h2>
-        <p>Step into bespoke fashion. Choose your session time and start your Velonni journey today.</p>
-        <a href="contact.html" class="cta-btn">Request Appointment</a>
+    <section
+      class="booking-cta"
+      style="display: flex; flex-direction: column; align-items: center"
+    >
+      <h2>Ready to Begin?</h2>
+      <p>
+        Step into bespoke fashion. Choose your session time and start your
+        Velonni journey today.
+      </p>
+      <button class="cta-btn">Request Appointment</button>
     </section>
 
     <!-- ================= FOOTER ================= -->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-left">
-                <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="footer-logo">
-                <div class="footer-promise">
-                    <p>&copy; 2025 Velonni. All Rights Reserved.</p>
-                    <p>Sustainably crafted. Authentically African. Unapologetically bold.<br>Every piece tells your
-                        story, with class.</p>
-                </div>
-            </div>
-
-            <div class="footer-right">
-                <ul class="footer-links">
-                    <li><a href="about.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="collections.html">Collections</a></li>
-                    <li><a href="appointments.html">Appointments</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="trustees.html">Trustees</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="assets/Images/VelonniLogo.png"
+            alt="Velonni Logo"
+            class="footer-logo"
+          />
+          <div class="footer-promise">
+            <p>&copy; 2025 Velonni. All Rights Reserved.</p>
+            <p>
+              Sustainably crafted. Authentically African. Unapologetically
+              bold.<br />Every piece tells your story, with class.
+            </p>
+          </div>
         </div>
+
+        <div class="footer-right">
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="trustees.html">Trustees</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+    <script src="./assets/js/style.js"></script>
+  </body>
 </html>

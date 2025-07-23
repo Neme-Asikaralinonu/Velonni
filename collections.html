@@ -1,135 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Velonni Collections</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/collections.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
-</head>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VelonniMobileLogo.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- ================= NAVIGATION BAR ================= -->
     <header class="navbar">
-        <div class="logo-container">
-            <a href="index.html">
-                <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="logo-desktop">
-                <img src="assets/Images/VelonniMobileLogo.png" alt="Velonni Mobile Logo" class="logo-mobile">
-            </a>
-        </div>
+      <div class="logo-container">
+        <img
+          src="assets/Images/VelonniLogo.png"
+          alt="Velonni Logo"
+          class="logo-desktop"
+        />
+        <img
+          src="assets/Images/VelonniMobileLogo.png"
+          alt="Velonni Mobile Logo"
+          class="logo-mobile"
+        />
+      </div>
 
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">
-            <img src="assets/Images/OpenMenu.png" alt="Menu Icon" class="menu-open-icon">
-            <img src="assets/Images/CloseMenu.png" alt="Close Icon" class="menu-close-icon">
-        </label>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <img
+          src="assets/Images/OpenMenu.png"
+          alt="Menu Icon"
+          class="menu-open-icon"
+        />
+        <img
+          src="assets/Images/CloseMenu.png"
+          alt="Close Icon"
+          class="menu-close-icon"
+        />
+      </label>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                    <a href="#">Explore ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="collections.html" class="active">Collections</a></li>
-                        <li><a href="appointments.html">Appointments</a></li>
-                        <li><a href="services.html">Services</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Community ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="teams.html">Teams</a></li>
-                        <li><a href="trustees.html">Trustees</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+      <nav>
+        <ul class="nav-links">
+          <li>Events</li>
+          <li class="dropdown">
+            Explore ▾
+            <ul class="dropdown-menu">
+              <li>Appointments</li>
+              <li>Services</li>
             </ul>
-        </nav>
+          </li>
+          <li class="dropdown">
+            Community ▾
+            <ul class="dropdown-menu">
+              <li>About</li>
+              <li>Blog</li>
+              <li>Teams</li>
+              <li>Trustees</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- ========== HERO SECTION ========== -->
     <section class="collections-hero">
-        <div class="hero-content">
-            <h1>Our Collections</h1>
-            <p>Elevated designs for every bold moment.</p>
-        </div>
+      <div class="hero-content">
+        <h1>Our Collections</h1>
+        <p>Elevated designs for every bold moment.</p>
+      </div>
     </section>
 
     <!-- ========== COLLECTIONS GALLERY ========== -->
     <section class="collections-gallery">
-
-        <!-- Spring Line -->
-        <div class="collection-card">
-            <div class="collection-image" style="background-image: url('assets/Images/SpringCollection.png');"></div>
-            <div class="collection-text">
-                <h2>Spring Line 2025</h2>
-                <p>Fresh silhouettes, lightweight fabrics, and bold florals define our 2025 Spring Collection—crafted
-                    for effortless luxury.</p>
-            </div>
+      <!-- Spring Line -->
+      <div class="collection-card">
+        <div
+          class="collection-image"
+          style="background-image: url('assets/Images/SpringCollection.png')"
+        ></div>
+        <div class="collection-text">
+          <h2>Spring Line 2025</h2>
+          <p>
+            Fresh silhouettes, lightweight fabrics, and bold florals define our
+            2025 Spring Collection—crafted for effortless luxury.
+          </p>
         </div>
+      </div>
 
-        <!-- Avant-Garde Couture -->
-        <div class="collection-card reverse">
-            <div class="collection-image" style="background-image: url('assets/Images/AvantGarde.png');"></div>
-            <div class="collection-text">
-                <h2>Avant-Garde Couture</h2>
-                <p>Statement pieces that challenge convention. Architectural cuts and artistic textures for the fearless
-                    trendsetter.</p>
-            </div>
+      <!-- Avant-Garde Couture -->
+      <div class="collection-card reverse">
+        <div
+          class="collection-image"
+          style="background-image: url('assets/Images/AvantGarde.png')"
+        ></div>
+        <div class="collection-text">
+          <h2>Avant-Garde Couture</h2>
+          <p>
+            Statement pieces that challenge convention. Architectural cuts and
+            artistic textures for the fearless trendsetter.
+          </p>
         </div>
+      </div>
 
-        <!-- Evening Wear -->
-        <div class="collection-card">
-            <div class="collection-image" style="background-image: url('assets/Images/EveningWear.png');"></div>
-            <div class="collection-text">
-                <h2>Luxury Evening Wear</h2>
-                <p>Experience opulence after dark. From red carpet gowns to refined tuxedos, our evening wear embodies
-                    elegance.</p>
-            </div>
+      <!-- Evening Wear -->
+      <div class="collection-card">
+        <div
+          class="collection-image"
+          style="background-image: url('assets/Images/EveningWear.png')"
+        ></div>
+        <div class="collection-text">
+          <h2>Luxury Evening Wear</h2>
+          <p>
+            Experience opulence after dark. From red carpet gowns to refined
+            tuxedos, our evening wear embodies elegance.
+          </p>
         </div>
-
+      </div>
     </section>
 
     <!-- ========== CALL TO ACTION ========== -->
-    <section class="cta-section">
-        <h2>Discover Your Signature Look</h2>
-        <p>Book a private appointment to shop the collections or get personalized styling advice from Velonni experts.
-        </p>
-        <a href="appointments.html" class="cta-btn">Book a Styling Session</a>
+    <section
+      class="cta-section"
+      style="display: flex; flex-direction: column; align-items: center"
+    >
+      <h2>Discover Your Signature Look</h2>
+      <p>
+        Book a private appointment to shop the collections or get personalized
+        styling advice from Velonni experts.
+      </p>
+      <button class="cta-btn">Book a Styling Session</button>
     </section>
 
     <!-- ================= FOOTER ================= -->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-left">
-                <img src="assets/Images/VelonniLogo.png" alt="Velonni Logo" class="footer-logo">
-                <div class="footer-promise">
-                    <p>&copy; 2025 Velonni. All Rights Reserved.</p>
-                    <p>Sustainably crafted. Authentically African. Unapologetically bold.<br>Every piece tells your
-                        story, with class.</p>
-                </div>
-            </div>
-
-            <div class="footer-right">
-                <ul class="footer-links">
-                    <li><a href="about.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="collections.html">Collections</a></li>
-                    <li><a href="appointments.html">Appointments</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="trustees.html">Trustees</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="assets/Images/VelonniLogo.png"
+            alt="Velonni Logo"
+            class="footer-logo"
+          />
+          <div class="footer-promise">
+            <p>&copy; 2025 Velonni. All Rights Reserved.</p>
+            <p>
+              Sustainably crafted. Authentically African. Unapologetically
+              bold.<br />Every piece tells your story, with class.
+            </p>
+          </div>
         </div>
+
+        <div class="footer-right">
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="appointments.html">Appointments</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="teams.html">Team</a></li>
+            <li><a href="trustees.html">Trustees</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+    <script src="./assets/js/style.js"></script>
+  </body>
 </html>
