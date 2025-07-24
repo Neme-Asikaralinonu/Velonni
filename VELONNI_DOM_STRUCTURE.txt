@@ -1,0 +1,100 @@
+DOM Structure for Velonni Homepage:
+
+html
+├── head
+│   ├── meta (charset)
+│   ├── meta (viewport)
+│   ├── title
+│   ├── link (stylesheet)
+│   └── link (favicon)
+└── body
+    ├── header.navbar
+    │   ├── div.logo-container
+    │   │   ├── img.logo-desktop
+    │   │   └── img.logo-mobile
+    │   ├── input#menu-toggle
+    │   ├── label.hamburger
+    │   │   ├── img.menu-open-icon
+    │   │   └── img.menu-close-icon
+    │   └── ul.nav-links
+    │       ├── li (Events)
+    │       ├── li.dropdown (Explore)
+    │       │   └── ul.dropdown-menu
+    │       └── li.dropdown (Community)
+    │           └── ul.dropdown-menu
+    ├── section.hero
+    │   ├── h1
+    │   ├── div.column
+    │   │   ├── h6
+    │   │   └── p
+    │   └── div.flex
+    │       ├── button
+    │       └── button.cta-btn
+    ├── section.about-preview
+    │   └── div.about-container
+    │       ├── div.about-text
+    │       │   ├── h2
+    │       │   ├── p
+    │       │   └── button.cta-btn
+    │       └── img.about-image
+    ├── section.collections-preview
+    │   ├── h2
+    │   ├── div.collection-grid
+    │   │   ├── div.collection-item (x3)
+    │   └── button.cta-btn
+    ├── section.appointment-teaser
+    │   └── div.appointment-container
+    │       ├── img.appointment-image
+    │       └── div.appointment-text
+    │           ├── h2
+    │           ├── p
+    │           └── button.cta-btn
+    ├── section.services-preview
+    │   ├── h2
+    │   ├── p
+    │   └── section.services-section
+    │       └── div.services-grid
+    │           └── div.service-card (x3)
+    │               └── div.service-overlay
+    │                   ├── h3
+    │                   └── p
+    │   └── button.cta-btn
+    ├── section.blog-preview
+    │   ├── h2
+    │   ├── p
+    │   └── div.blog-grid
+    │       └── div.blog-card (x3)
+    │           ├── img
+    │           ├── h3
+    │           ├── p
+    │           └── a.blog-btn
+    ├── section.events-preview
+    │   ├── h2
+    │   ├── p
+    │   ├── div.collection-grid
+    │   │   └── div.collection-item (x3)
+    │   └── button.cta-btn
+    ├── section.trustees-preview
+    │   ├── h2
+    │   ├── p
+    │   ├── div.collection-grid
+    │   │   └── div.collection-item (x3)
+    │   │       ├── img
+    │   │       └── p.trustees-name > span.trustees-role
+    │   └── button.cta-btn
+    ├── section.contact-section
+    │   └── div.contact-container
+    │       └── div.contact-text
+    │           ├── h2
+    │           ├── p
+    │           └── button.cta-btn
+    └── footer.footer
+        └── div.footer-container
+            ├── div.footer-left
+            │   ├── img.footer-logo
+            │   └── div.footer-promise
+            │       ├── p
+            │       └── p
+            └── div.footer-right
+                └── ul.footer-links
+                    └── li > a (x9)
