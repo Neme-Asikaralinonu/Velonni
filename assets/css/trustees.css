@@ -57,9 +57,10 @@ body {
 }
 
 .trustees-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
   max-width: 1200px;
   width: 100%;
 }
@@ -73,6 +74,7 @@ body {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-height: 300px;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
