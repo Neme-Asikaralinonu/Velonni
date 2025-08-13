@@ -2,7 +2,7 @@ VELONNI
 
 A Fashion House Project For Miva Open University School Of Computing Computer Science Department.
 
-This project was contributed by the 10+ people in our group.
+This project was contributed by the 8 people in our group.
 
 Special Thanks to Mujeeb Raheem for working overtime for this project in a short period of time.
 
